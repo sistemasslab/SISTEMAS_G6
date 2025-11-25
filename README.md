@@ -1,11 +1,11 @@
 # SISTEMAS_G6
 La solución consiste en un software funcional desarrollado en Python (PyQt5) que se conecta a una base de datos MySQL.
 El sistema permite:
-# Visualizar productos, stock y alertas de reposición.
-# Consultar proveedores, ventas y conteos de inventario.
-# Registrar nuevas categorías desde la interfaz.
-# Eliminar productos desde la vista correspondiente.
-# Mostrar tablas relacionales directamente desde la BD.
+a) Visualizar productos, stock y alertas de reposición.
+b) Consultar proveedores, ventas y conteos de inventario.
+c) Registrar nuevas categorías desde la interfaz.
+d) Eliminar productos desde la vista correspondiente.
+e) Mostrar tablas relacionales directamente desde la BD.
 La interfaz se diseñó en Qt Designer y se integra mediante loadUi().
 
 # 1. Requisitos del Sistema
@@ -21,19 +21,18 @@ pip install pymysql
 # 2. Configuración Inicial
 Paso 1: Configurar la Base de Datos:
 Paso 2: Abrir MySQL Workbench.
-Paso 3: Crear la base de datos ejecutando:
-# SOURCE BBDD.sql;
+Paso 3: Crear la base de datos ejecutando: BBDD.sql
 
 # 3. Ejecución del Sistema
 
-Abrir Anaconda Prompt o terminal.
-Navegar a la carpeta del proyecto: cd ruta/del/proyecto
-Ejecutar: python main.py
-En la ventana de login ingresar:
+a) Abrir Anaconda Prompt o terminal.
+b) Navegar a la carpeta del proyecto: cd ruta/del/proyecto
+c) Ejecutar: python main.py
+d) En la ventana de login ingresar:
 Host: localhost
 Usuario: root (o el definido en MySQL)
 Contraseña: tu contraseña MySQL
-Al presionar Validar usuario, se abrirá la ventana principal.
+e) Al presionar Validar usuario, se abrirá la ventana principal.
 
 # 4. Secuencia de Uso del Sistema
 1) Usuario ingresa sus credenciales → login exitoso.
